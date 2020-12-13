@@ -1,6 +1,6 @@
 {
   "name": "@indaneey/imatch",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A vanilla JavaScript mobile-friendly before/after comparison slider.",
   "main": "./dist/imatch.min.js",
   "scripts": {
