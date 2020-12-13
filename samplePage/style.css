@@ -1,0 +1,96 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(37, 37, 37);
+    color: rgb(209, 209, 209);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 200;
+    text-align: center;
+}
+.main{
+    padding: 10px;
+}
+h1 b{
+    color: yellowgreen;
+}
+.features{
+    text-align: justify;
+}
+small{
+    font-size: 1rem;
+}
+.footer{
+    background-color: rgba(255, 255, 255, 0.075);
+    padding: 10px;
+    display: block
+}
+.main div div{
+    margin: 10px;
+    border-radius: 20px;
+    border: 2px solid rgb(255, 236, 62);
+    padding: 10px;
+    box-shadow: 1px 1px 10px 2px rgba(240, 255, 34, 0.233);
+}
+.board{
+    display: inline-block;
+    background-color: rgba(255, 255, 255, 0.082);
+    border-radius: 10px;
+}
+/* .board span{
+    background-color: white;
+    position: relative;
+} */
+
+.container{
+    width: 350px;
+    height: 500px;
+    background-color: gray;
+    display: inline-block;
+    backdrop-filter: blur(10px);
+}
+@media screen and (max-width: 700px) {
+    .container{
+        width: 300px;
+        height: 400px;
+        backdrop-filter: blur(10px);
+    }
+}
+.container1{
+    width: 300px;
+    height: 600px;
+    background-color: gray;
+    display: inline-block;
+    backdrop-filter: blur(10px);
+}
+.container2{
+    width: 300px;
+    height: 600px;
+    background-color: gray;
+    display: inline-block;
+    backdrop-filter: blur(10px);
+}
+
+.dot{
+    background-color: rgb(255, 255, 255);
+    width: 20px;
+    height: 20px;
+    border: 0px solid rgb(71, 71, 71);
+    border-radius: 20%;
+    box-shadow: 1px 1px 10px 2px rgba(0, 0, 0, 0.5);
+}
+.line{
+    background-color: rgba(255, 255, 255, 0.102);
+    border: 2px solid;
+    border-style: dashed;
+    border-spacing: 10px 5px;
+    border-color: rgb(219, 219, 219);
+}
+
+.caption{
+    font-size: .8rem;
+    color: rgb(34, 34, 34);
+    background-color: rgba(228, 228, 228, 0.787);
+    padding: 5px;
+    border-radius: 3px;
+}
