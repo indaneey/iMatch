@@ -1,8 +1,8 @@
 {
-  "name": "imatch",
+  "name": "@indaneey/imatch",
   "version": "1.0.0",
   "description": "A vanilla JavaScript mobile-friendly before/after comparison slider.",
-  "main": ".dist/imatch.min.js",
+  "main": "./dist/imatch.min.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
