@@ -21,7 +21,8 @@
 
   "author": "Indaneey_design <indaneeey@gmail.com>",
   "license": "MIT",
-  "dependencies": {
+  "dependencies": {},
+  "devDependencies": {
     "@babel/core": "^7.12.10",
     "@babel/preset-env": "^7.12.10",
     "babel-core": "^6.26.3",
